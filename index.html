@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js.map"></script>
+
+<body>
+
+  <body>
+    <nav id="hamburgerMenu" class="hamburgerMenu ">
+      <div id="hamburgerMenu--topHeight" class="center">
+      </div>
+      <div class="hamburgerMenu__container">
+        <ul id="hamburgerMenuArea">
+          <li>
+            <a id="homeMenu3" class="hideMenuJQuery">Home</a>
+          </li>
+          <li>
+            <a id="featuresMenu3" class="hideMenuJQuery">Features</a>
+          </li>
+          <li>
+            <a id="reviewsMenu3" class="hideMenuJQuery">Reviews</a>
+          </li>
+          <li>
+            <a id="downloadMenu3" class="hideMenuJQuery">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="first-screen" class="first-screen">
+      <div class="bg">
+        <header id="scrollPadding" class="header center">
+          <a href="#" class="header__logo verticalAlign">My Weather.</a>
+          <nav class="header__nav">
+            <ul class="menu">
+              <li>
+                <a id="homeMenu">Home</a>
+              </li>
+              <li>
+                <a id="featuresMenu">Features</a>
+              </li>
+              <li>
+                <a id="reviewsMenu">Reviews</a>
+              </li>
+              <li>
+                <a id="downloadMenu">Download</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header__social verticalAlign">
+            <li>
+              <a href="#" class="header__social--facebook">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="header__social--instagram">Instagram</a>
+            </li>
+            <li>
+              <a href="#" class="header__social--tweeter">Tweeter</a>
+            </li>
+          </ul>
+          <button type="button" id="hamburgerButton" class="btn__menu js-btnMenu">
+            <span class="btn__menu__line btn__menu__line--first"></span>
+            <span class="btn__menu__line btn__menu__line--second"></span>
+            <span class="btn__menu__line btn__menu__line--third"></span>
+            <span class="btn__menu__line btn__menu__line--fourth"></span>
+            <span class="btn__menu__line btn__menu__line--fifth"></span>
+            <span class="btn__menu__line btn__menu__line--sixth"></span>
+          </button>
+        </header>
+      </div>
+      <section class="main-content center">
+        <div class="main-content__info verticalAlign">
+          <div class="contener1">
+            <h1 class="text1">Get the most fun weather app</h1>
+            <p class="text2">Simple, nice and user-friendly aplication of the weather. Only useful information</p>
+            <div class="main-content__buttons">
+              <a href="#" class="button main-content__buttons--download verticalAlign">Download</a>
+              <a href="#" class="button main-content__buttons--features verticalAlign">Features</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-content__phone">
+          <!-- <div class="cir_sunny"> SUNNY</div>
+          <div class="cir_london">LONDON</div>
+          <div class="cir_nine">9&deg;</div>
+          <div class="cir_rio">RIO</div> -->
+
+          <div class="img">
+
+          </div>
+        </div>
+      </section>
+      <a id="button" class="first-screen__buttonScrollDown"><span></span></a>
+    </section>
+
+
+    <section id="features" class="features">
+      <div class="center">
+        <h1>Perfect features</h1>
+        <p class="underH1">Only necessary</p>
+        <div class="features__boxes">
+          <div class="boxes__item boxes__item--first">
+            <span class="item__img"></span>
+            <div class="item__info">
+              <h3 class="info__title">Usability</h3>
+              <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for
+                everyday life.</p>
+            </div>
+          </div>
+          <div class="boxes__item boxes__item--second">
+            <span class="item__img"></span>
+            <div class="item__info">
+              <h3 class="info__title">Parallax Effect</h3>
+              <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for
+                everyday life.</p>
+            </div>
+          </div>
+          <div class="boxes__item boxes__item--third">
+            <span class="item__img"></span>
+            <div class="item__info">
+              <h3 class="info__title">Unlimited Colors</h3>
+              <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for
+                everyday life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="widgets test">
+      <div class="container">
+        <div class="row">
+          <div class="center">
+            <h1>Simple widgets</h1>
+            <p class="underH1">Drag and Drop</p>
+          </div>
+          <div class="swiper-container"> 
+            <!-- margin: 20px auto -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"
+                style="background-color: transparent";>
+                <!-- border: 2px transparent; box-shadow: 1px 1px 1px 1px whitesmoke -->
+                <img src="images/Slider/imagecenter.png"></div>
+              <div class="swiper-slide"
+              style="background-color: transparent";>
+                <img src="images/Slider/imageRight.png"></div>
+              <div class="swiper-slide"
+              style="background-color: transparent";>
+                <img src="images/Slider/imageLeft.png"></div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+          </div>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="screenshots">
+      <div class="center">
+        <h1>Screenshots</h1>
+        <p class="underH1">The brightest images</p>
+        <div class="slider2"></div>
+        <article class="bigBox bigBox--first">
+          <div class="phone">
+             
+            <div class="phone__img">
+
+            </div>
+            <!-- <h1 class="cloudy">Cloudy</h1> -->
+            <!-- <div class="cir_cloudy"> cloudy</div>
+            <div class="cir_15">15&deg;</div>  -->
+          </div>
+          <div class="description verticalAlign">
+            <div class="description__box">
+              <div class="descripion__imgAndText">
+                <img class="description__img" src="images/cloudy.png" alt="cloud" />
+                <h2 class="description__text1">When the clouds</h2>
+              </div>
+              <p class="description__text2">Variable information on the air humidity, the feeling of the weather, and
+                the
+                ability to share this with your friends</p>
+              <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
+            </div>
+          </div>
+        </article>
+        <article class="bigBox bigBox--second">
+          <div class="phone">
+            <div class="phone__img">
+
+            </div>
+            <!-- <h1 class="sunny">Sunny</h1>
+            <div class="circle_sunny_1">Sunny</div> 
+            <div class="circle_sunny_2">35&deg;</div> -->
+          </div>
+          <div class="description verticalAlign">
+            <div class="description__box">
+              <div class="descripion__imgAndText">
+                <img class="description__img" src="images/sun.png" alt="cloud" />
+                <h2 class="description__text1">When the sun</h2>
+              </div>
+              <p class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new
+                line for everyday life. Sometimes the simplest</p>
+              <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
+            </div>
+          </div>
+        </article>
+        <article class="bigBox bigBox--third">
+          <div class="phone">
+            <div class="phone__img">
+
+            </div>
+            <!-- <h1 class="rainy">Rainy</h1>
+            <div class="cir_rainy"> cloudy</div>
+            <div class="cir_9">9&deg;</div>  -->
+
+          </div>
+          <div class="description verticalAlign">
+            <div class="description__box">
+              <div class="descripion__imgAndText">
+                <img class="description__img" src="images/rain.png" alt="cloud" />
+                <h2 class="description__text1">When the rain</h2>
+              </div>
+              <p class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new
+                line for everyday life. Sometimes the simplest</p>
+              <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="opinions">
+      <div class="center">
+        <h1>What people are saying</h1>
+        <p class="underH1">Reviews</p>
+        <div class="opinions__quotes">
+          <div class="quote quote--first">
+            <div class="quote__padding">
+              <p class="quoteContent">What art offers is space - a certain breathing room for the spirit.</p>
+              <p class="quote--names">John Updike</p>
+            </div>
+          </div>
+          <div class="quote quote--second">
+            <div class="quote__padding">
+              <p class="quoteContent">We do not see nature with our eyes, but with our understandings and our hearts.
+              </p>
+              <p class="quote--names">William Hazlitt</p>
+            </div>
+          </div>
+          <div class="quote quote--third">
+            <div class="quote__padding">
+              <p class="quoteContent">The only courage that matters is the kind that gets you from one moment to the
+                next.
+              </p>
+              <p class="quote--names">Mignon McLaughlin</p>
+            </div>
+          </div>
+          <div class="quote quote--fourth">
+            <div class="quote__padding">
+              <p class="quoteContent">No man has a good enough memory to be a successful liar.</p>
+              <p class="quote--names">Abraham Lincoln</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="download" class="download">
+      <div class="download_overlay"></div>
+      <div class="center">
+        <h1 class="text1">How to download the app?</h1>
+        <p class="text2">Just download the app from the store. Simple, nice and user-friendly application of theweather.
+          Only relevant and useful information.</p>
+        <div class="download__buttons">
+       
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <section class="header center">
+          <a href="#" class="header__logo">MY <span class="logo__color">Weather.</span></a>
+          <nav class="header__nav">
+            <ul class="menu">
+              <li>
+                <a id="homeMenu2">Home</a>
+              </li>
+              <li>
+                <a id="featuresMenu2">Features</a>
+              </li>
+              <li>
+                <a id="reviewsMenu2">Reviews</a>
+              </li>
+              <li>
+                <a id="downloadMenu2">Download</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- <p class="author">
+
+          </p> -->
+          <ul class="header__social">
+            <li>
+              <a href="#" class="header__social--facebook">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="header__social--instagram">Instagram</a>
+            </li>
+            <li>
+              <a href="#" class="header__social--tweeter">Tweeter</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="center align__rights">
+        <p class="rights">© 2010 All rights reserved. WAPP by Braxpic</p>
+      </div>
+      <a id="buttonUP" class="buttonUP"><span></span></a>
+    </footer>
+    <script>
+
+
+      //Smooth scrolling to section when menu button clicked
+      function scrollTo(element) {
+        window.scroll({
+          behavior: 'smooth',
+          top: element.offsetTop
+        });
+      }
+      document.getElementById("homeMenu").addEventListener('click', () => scrollTo(document.getElementById("first-screen")));
+      document.getElementById("featuresMenu").addEventListener('click', () => scrollTo(document.getElementById("features")));
+      document.getElementById("reviewsMenu").addEventListener('click', () => scrollTo(document.getElementById("reviews")));
+      document.getElementById("downloadMenu").addEventListener('click', () => scrollTo(document.getElementById("download")));
+      document.getElementById("homeMenu2").addEventListener('click', () => scrollTo(document.getElementById("first-screen")));
+      document.getElementById("featuresMenu2").addEventListener('click', () => scrollTo(document.getElementById("features")));
+      document.getElementById("reviewsMenu2").addEventListener('click', () => scrollTo(document.getElementById("reviews")));
+      document.getElementById("downloadMenu2").addEventListener('click', () => scrollTo(document.getElementById("download")));
+      document.getElementById("homeMenu3").addEventListener('click', () => scrollTo(document.getElementById("first-screen")));
+      document.getElementById("featuresMenu3").addEventListener('click', () => scrollTo(document.getElementById("features")));
+      document.getElementById("reviewsMenu3").addEventListener('click', () => scrollTo(document.getElementById("reviews")));
+      document.getElementById("downloadMenu3").addEventListener('click', () => scrollTo(document.getElementById("download")));
+      document.getElementById("button").addEventListener('click', () => scrollTo(document.getElementById("features")));
+      document.getElementById("buttonUP").addEventListener('click', () => scrollTo(document.getElementById("first-screen")));
+
+
+
+
+      // Show mobile hamburgerMenu when clicked hamburger button
+      // document.getElementById("hamburgerButton").addEventListener('click', () => document.getElementById("hamburgerMenu").classList.toggle("isActive"))
+
+
+
+
+
+
+      var windowWidth = window.innerWidth;
+
+
+      function calcVH() {
+        var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        document.getElementById("first-screen").setAttribute("style", "height:" + vH + "px;");
+      }
+
+      calcVH();
+      window.addEventListener('onorientationchange', calcVH, true);
+
+      var headerHeight = document.querySelector('.header').clientHeight;
+      var firstScreenHeight = document.querySelector('.first-screen').clientHeight;
+      var mainContentHigh = document.querySelector('.main-content').style.height = (firstScreenHeight - headerHeight) + "px";
+      var highCorrection = document.querySelector('.main-content').style.paddingTop = (headerHeight) + "px";
+      var hamburgerMenuTopHeight = document.getElementById("hamburgerMenu--topHeight").style.height = (headerHeight) + "px";
+
+      function resizeFunction() {
+        if (window.matchMedia("(min-width: 433px)").matches) {
+          calcVH();
+        }
+        window.addEventListener('onorientationchange', calcVH, true);
+        var headerHeight = document.querySelector('.header').clientHeight;
+        var firstScreenHeight = document.querySelector('.first-screen').clientHeight;
+        var mainContentHigh = document.querySelector('.main-content').style.height = (firstScreenHeight - headerHeight) + "px";
+        var highCorrection = document.querySelector('.main-content').style.paddingTop = (headerHeight) + "px";
+        var hamburgerMenuTopHeight = document.getElementById("hamburgerMenu--topHeight").style.height = (headerHeight) + "px";
+      }
+
+
+
+      function scrollFunction() {
+        var windowWidth = window.innerWidth;
+        if (document.documentElement.scrollTop > 40) {
+          document.getElementById("buttonUP").style.display = "flex";
+          document.getElementById("scrollPadding").style.paddingTop = 5 + "px";
+          document.getElementById("scrollPadding").style.paddingBottom = 5 + "px";
+          var hamburgerMenuTopHeight = document.getElementById("hamburgerMenu--topHeight").style.height = (headerHeight - 40) + "px";
+        }
+        if (document.documentElement.scrollTop < 41) {
+          document.getElementById("buttonUP").style.display = "none";
+        }
+        if (document.documentElement.scrollTop < 41 && windowWidth > 790) {
+          document.getElementById("scrollPadding").style.paddingTop = 25 + "px";
+          document.getElementById("scrollPadding").style.paddingBottom = 25 + "px";
+          var hamburgerMenuTopHeight = document.getElementById("hamburgerMenu--topHeight").style.height = (headerHeight) + "px";
+        }
+      }
+
+
+
+      window.onscroll = () => {
+        scrollFunction()
+      };
+
+      window.onresize = () => {
+        resizeFunction()
+      };
+
+    </script>
+
+  </body>
+
+
+</body>
+
+</html>
